@@ -1,0 +1,21 @@
+- name: Chantel Teague
+  bio: |
+    Written by Chantel. She is the founder of Styleq.
+    Chantel pushes to break the boundaries of possibility with
+    self care and styling.
+  avatar: ./avatars/chantel.jpg
+  social:
+    - url: https://twitter.com/bookstyleq
+    - url: https://instagram.com/intostyleq
+  featured: true
+
+- name: Joseph Rex
+  bio: |
+    Written by Joseph. Joseph enjoys writing articles on software engineering,
+    UX, and human psychology.
+  avatar: ./avatars/joseph-rex.jpg
+  social:
+    - url: https://twitter.com/josephrexme
+    - url: https://instagram.com/josephrexme
+    - url: https://www.linkedin.com/in/josephrexme
+
