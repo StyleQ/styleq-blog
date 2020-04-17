@@ -3,7 +3,7 @@ module.exports = {
     title: `StyleQ Blog`,
     name: `StyleQ`,
     siteUrl: `https://blog.bookstyleq.com`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    description: `StyleQ connects users to beauty and wellness professionals, instantly. StyleQ empowers local salons and independent stylists to generate profitable appointments during gaps in their schedules, and allows users to book appointments on the spot.`,
     hero: {
       heading: `Welcome to StyleQ Blog, a home for hairstyling and beauty content.`,
       maxWidth: 652,
