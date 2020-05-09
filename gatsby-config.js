@@ -1,3 +1,7 @@
+require('dotenv').config();
+
+const { CONTENTFUL_SPACE_ID, CONTENTFUL_ACCESS_TOKEN } = process.env;
+
 module.exports = {
   siteMetadata: {
     title: `StyleQ Blog`,
@@ -29,14 +33,21 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "@narative/gatsby-theme-novela",
+      resolve: 'gatsby-source-contentful',
+      options: {
+        spaceId: CONTENTFUL_SPACE_ID,
+        accessToken: CONTENTFUL_ACCESS_TOKEN,
+      },
+    },
+    {
+      resolve: '@narative/gatsby-theme-novela',
       options: {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
         basePath: "/",
         sources: {
-          local: true,
-          contentful: false
+          local: false,
+          contentful: true
         },
       },
     },
